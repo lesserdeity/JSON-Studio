@@ -1,0 +1,45 @@
+{
+	"plan": "FY27 Relationship Manager Incentive",
+	"version": 3,
+	"effective": "2027-01-01",
+	"active": true,
+	"currency": "USD",
+	"targetIncentive": 42000,
+	"measures": [
+		{
+			"id": "growth",
+			"label": "New revenue growth",
+			"weight": 0.5,
+			"quota": 1250000,
+			"accelerators": [
+				{
+					"from": 1,
+					"rate": 1.5
+				},
+				{
+					"from": 1.2,
+					"rate": 2
+				}
+			]
+		},
+		{
+			"id": "renewal",
+			"label": "Renewal rate",
+			"weight": 0.3,
+			"threshold": 0.85,
+			"cap": 1.5
+		},
+		{
+			"id": "revenue",
+			"label": "Total book revenue",
+			"weight": 0.2,
+			"quota": 8400000
+		}
+	],
+	"renewalBonus": {
+		"enabled": true,
+		"amount": 2500,
+		"note": "Paid when the renewal rate is 95% or higher"
+	},
+	"approvedBy": null
+}

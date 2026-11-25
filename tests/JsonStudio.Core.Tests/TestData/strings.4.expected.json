@@ -1,0 +1,8 @@
+{
+    "uni": "héllo 世界 😀",
+    "esc": "q\"b\\s/ \b\f\n\r\t",
+    "ctl": "\u0001\u001f",
+    "ls": "  ",
+    "lone": "\ud800x\udc00",
+    "keyé\n": 1
+}

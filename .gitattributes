@@ -1,0 +1,4 @@
+* text=auto
+# Serializer tests compare bytes exactly (LF line endings): never convert these files.
+tests/JsonStudio.Core.Tests/TestData/** -text
+*.ico binary

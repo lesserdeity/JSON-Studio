@@ -1,0 +1,8 @@
+bin/
+obj/
+publish/
+*.user
+.vs/
+
+# Local design document, not published
+JSON-Studio-Desktop-Spec.md
